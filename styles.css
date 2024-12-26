@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cf3349;
+}
+
+/* Estilo del recuadro verde */
+.info-box {
+  background-color: #1cc260; /* Verde claro */
+  border: 8px solid #08652e; /* Borde rojo */
+  color: #000000; /* Texto verde oscuro */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del botón circular */
+.redirect-button {
+  margin-top: 40px;
+  width: 130px;
+  height: 90px;
+  font-size: 24px;
+  color: white;
+  background: linear-gradient(to bottom, #eef78e, #f97b05); /* Gradiente 3D */
+  border: 8px;
+  border-radius: 80%; /* Botón circular */
+  cursor: pointer;
+  box-shadow: 0 8px #c46308; /* Sombra inferior para el efecto 3D */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.redirect-button:active {
+  box-shadow: 0 4px #004080; /* Sombra más cercana al hacer clic */
+  transform: translateY(px); /* Simula un efecto de pulsación */
+}
+
+.redirect-button:hover {
+  background: linear-gradient(
+    to bottom,
+    #7af3f7,
+    #004080
+  ); /* Gradiente más oscuro */
+  box-shadow: 0 8px #1625e7;
+}
